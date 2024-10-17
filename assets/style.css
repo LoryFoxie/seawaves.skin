@@ -1,0 +1,262 @@
+body {
+    width: auto;
+    font-family: "Poiret One", sans-serif;
+    font-size: 12pt;
+    font-weight: 400;
+    background-color: #001F3F;
+    color: #EAD8B1;
+    letter-spacing: 1px;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: "Lavishly Yours", serif;
+    font-size: 60pt;
+    font-weight: 500;
+    text-align: right;
+    letter-spacing: 5px;
+    margin: 0;
+    margin-right: 20px;
+    margin-bottom: -10px;
+    color:#001F3F;
+    text-shadow: 1px 1px 1px #6A9AB0;
+}
+
+h2 {
+    font-family: "Lavishly Yours", serif;
+    font-size: 36pt;
+    font-weight: 500;
+    text-align: left;
+    color: #EAD8B1;
+    letter-spacing: 2px;
+    margin: 0;
+    text-shadow: 1px 1px 1px #001F3F;
+}
+
+h3 {
+    font-family: "Lavishly Yours", serif;
+    font-size: 28pt;
+    font-weight: 600;
+    color:#001F3F;
+    float:left;
+    margin: 0;
+    padding: 0;
+    padding-right: 10px;
+    margin-bottom: -10px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.header p {
+    text-align: right;
+    margin-right: 10px;
+    color:#001F3F;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px #6A9AB0;
+}
+
+hr {
+    width: 100%;
+    border: 2px solid #EAD8B1;
+    border-bottom: 0;
+    margin: 0;
+}
+
+.navigation {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    border: 0;
+    background-color: #3A6D8C;
+    background: linear-gradient(#001F3F, #3A6D8C);
+    margin: 0;
+    padding: 0;
+    border-bottom: 2px solid #EAD8B1;
+    font-weight: 600;
+}
+
+.navigation_1, .navigation_2 {
+    padding: 15px;
+}
+
+.navigation_1 img {
+    float: left;
+    margin-top: 3px;
+    padding-right: 20px;
+}
+
+.navigation_2 img {
+    float: left;
+    padding-right: 5px;
+}
+
+button, input {
+    border: 1px solid #EAD8B1;
+    background-color: #3A6D8C;
+    color: #EAD8B1;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #3A6D8C;
+    min-width: 160px;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.5);
+    border: 1px solid #6A9AB0;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-top: 15px;
+    z-index: 1;
+  }
+
+  ul {
+    padding: 0;
+    padding-left: 25px;
+  }
+
+  ul hr {
+    width: 99%;
+    margin-left: -17px;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  a:hover {
+    color: #001F3F;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.header { 
+    width: 100%;
+    height: 300px;
+    background-image: url(./images/sea_1.jpeg);
+    background-position: 40% 65%;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.sub_header {
+    margin: 0;
+    padding: 0;
+}
+
+.sub1 {
+    float: left;
+    text-align: center;
+    align-content: center;
+    height: 200px;
+    width: 150px;
+    margin: 5px;
+    margin-left: 10px;
+}
+
+.sub1 img {
+    width: 150px;
+}
+
+.sub2 {
+    text-align: justify;
+    height: 196px;
+    overflow: auto;
+    margin: 5px;
+    padding: 5px;
+    background-color: #EAD8B1;
+    border-radius: 10px;
+    color: #001F3F;
+    font-weight: 600;
+}
+
+.features {
+    width: 100%;
+    background-color:#001F3F;
+    background-image: url(./images/bg_freepik.jpg);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.fea_scroll {
+    flex: 1;
+    text-align: justify;
+    padding-left: 5px;
+}
+
+.fea_scrollmini {
+    height: 250px;
+    overflow: auto;
+    padding: 5px;
+    margin-bottom: 10px;
+    color: rgb(252, 244, 211);
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 25px;
+    padding: 0;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    margin: 0;
+    border-top: 2px solid #EAD8B1;
+    background-color: #3A6D8C;
+    background: linear-gradient(#3A6D8C, #001F3F);
+}
+
+/* SCROLLBAR PERSONALIZZATA*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* track */
+  ::-webkit-scrollbar-track {
+    background: #3A6D8C;
+  }
+  
+  /* handle */
+  ::-webkit-scrollbar-thumb {
+    background: #6A9AB0;
+  }
+  
+  /* handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #EAD8B1;
+  }
